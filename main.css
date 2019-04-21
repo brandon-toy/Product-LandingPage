@@ -1,0 +1,160 @@
+@import url(https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald);
+@import url(https://fonts.googleapis.com/css?family=Quicksand:300,500);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:900|Work+Sans:300);
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+html {
+  font-family: 'Lato','Cardo','Quicksand';
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+#header-img{
+  display:block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+#video {
+  margin: 0 auto;
+  width: 100%;
+}
+#email {
+  justify-content: center;
+}
+#description {
+  text-align: center
+}
+#featurelist {
+  margin-left: auto;
+  margin-right: auto;
+}
+.click {
+  text-align: center;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+ul {
+  display: table;
+  margin: 20 auto;
+}
+
+.header2 {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+.rectangle {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+  border: 1px solid black;
+  width: 250px;
+  height: 180px;
+}
+
+div {
+  display: block;
+}
+h2 {
+  font-size: 25px;
+  text-align: center;
+}
+#pricing {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#full-season,#half-season,#quarter-season {
+  display: flex;
+  border: 1px solid black;
+  flex-direction: column;
+  width: calc(100%/3);
+  margin: 10px;
+  text-align: center;
+}
+
+.green {
+  padding: 2px;
+  background-color: green;
+  color:white;
+  width: 125px;
+  height: 25px;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+ol {
+  /* background-color: rgb(220, 226, 237); */
+  text-align: left;
+  list-style: none;
+  font-size: 15px;
+}
+
+.button {
+  background-color: green;
+  color: white;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+button:hover{
+  cursor: pointer;
+}
+.full li {
+  margin: 20px 0;
+}
+.level {
+  padding: 5px 0;
+  background-color: rgb(4, 107, 224);
+  font-size: 20px;
+  color: white;
+}
+#seating {
+  margin-top: 80px;
+  text-align: center;
+}
+
+#seating-img {
+  margin-top: 40px;
+}
+#feature {
+  margin-right: 20px;
+}
+
+#price {
+  margin-left: 20px;
+}
+
+@media screen and (max-width:400px) {
+  #seating {
+    margin-top: 40px;
+  }
+}
